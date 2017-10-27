@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OcorrenciaControl" />
-        <activity android:name=".ObjetoControl"></activity>
+        <activity android:name=".control.OcorrenciaControl" />
+        <activity android:name=".control.ObjetoControl" />
+        <activity android:name=".listview.ListaAtor" />
+        <activity android:name=".control.AtorControl"></activity>
     </application>
 
 </manifest>
